@@ -41,5 +41,17 @@ header {
         text-decoration: none;
         margin-left: 45px;
     }
+
+    .nav a::after{
+        content: none;
+        position: absolute;
+        left: 0%;
+        height: 3px;
+        bottom: -5px;
+        width: 100%;
+        background: #070707;
+        
+
+    }
     
   }
